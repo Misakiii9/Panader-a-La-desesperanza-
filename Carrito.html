@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" href="estilosI.css"> 
+    <link rel="stylesheet" href="estilosCa.css">
+    <script src="validaciones.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="banner">
+        <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Carrito.html">Carrito</a></li>
+            <li><a href="Catalogo.html">Catalogo</a></li>
+            <li><a href="Pan.html">Pan de temporada</a></li>
+        </ul>
+    </div>
+
+<div id="Carrito">
+    
+    <h1>Panadería La Desesperanza</h1>
+
+    <h2>Registro de Producto</h2>
+    <form id="formProducto">
+        <label>Nombre del Producto:</label>
+        <input type="text" id="nombreProducto" required><br>
+
+        <label>Descripción:</label>
+        <input type="text" id="descripcionProducto"><br>
+
+        <label>Precio:</label>
+        <input type="number" step="0.01" id="precioProducto" required><br>
+
+        <label>Stock:</label>
+        <input type="number" id="stockProducto" required><br>
+
+        <button type="button" onclick="registrarProducto()">Registrar Producto</button>
+    </form>
+
+    <!-- Formulario de Clientes -->
+    <h2>Registro de Cliente</h2>
+    <form id="formCliente">
+        <label>Nombre:</label>
+        <input type="text" id="nombreCliente" required><br>
+
+        <label>Apellido:</label>
+        <input type="text" id="apellidoCliente" required><br>
+
+        <label>Email:</label>
+        <input type="email" id="emailCliente"><br>
+
+        <label>Teléfono:</label>
+        <input type="text" id="telefonoCliente"><br>
+
+        <button type="button" onclick="registrarCliente()">Registrar Cliente</button>
+    </form>
+
+</div>
+    
+</body>
+</html>   

@@ -1,0 +1,61 @@
+/* Estilo para la imagen en la esquina inferior derecha */
+.esquina-imagen {
+    position: fixed; /* Permite que la imagen permanezca en su lugar al desplazarse */
+    bottom: 0; /* Coloca la imagen en la parte inferior */
+    right: 0; /* Coloca la imagen en la parte derecha */
+    width: auto; /* Mantiene el tamaño original de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilo para la imagen en la esquina inferior derecha */
+.esquina-imagen2 {
+    position: fixed; /* Permite que la imagen permanezca en su lugar al desplazarse */
+    bottom: 10px; /* Ajusta la posición desde la parte inferior */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translateX(-50%); /* Centra la imagen con respecto a su propio ancho */
+    width: 300px; /* Ajusta el tamaño de la imagen (más pequeña) */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.esquina-imagen3 {
+    position: fixed; /* Permite que la imagen permanezca en su lugar al desplazarse */
+    /*right: 70; /* Coloca la imagen a la derecha */
+    bottom: 280px; /* Ajusta la posición desde la parte inferior */
+    width: 600px; /* Aumenta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    transform: translateX(85%); /* Ajusta la posición para centrarla visualmente en la pantalla */
+}
+
+.esquina-imagen4 {
+    position: fixed; /* Permite que la imagen permanezca en su lugar al desplazarse */
+    bottom: 30px; /* Coloca la imagen en la parte inferior */
+    left: 90px; /* Coloca la imagen en la parte derecha */
+    width: auto; /* Mantiene el tamaño original de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+
+
+#Inicio h1 {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 20px; /* Ajusta el margen izquierdo para separar el texto del borde */
+    font-family: 'Rubik Wet Paint', cursive; /* Aplica la fuente que incluiste */
+    color: #81482B; /* Cambia el color del texto si es necesario */
+    font-size: 50px; /* Ajusta el tamaño de la fuente */
+    line-height: 1.2; /* Espaciado entre líneas */
+}
+
+#Inicio {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+}
+
+#Inicio {
+    position: relative;
+    min-height: 90vh;
+    background-image: url('imgs/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
